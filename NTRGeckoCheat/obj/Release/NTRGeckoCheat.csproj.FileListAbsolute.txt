@@ -1,0 +1,13 @@
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\bin\Release\NTRGeckoCheat.exe.config
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\bin\Release\NTRGeckoCheat.exe
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\bin\Release\NTRGeckoCheat.pdb
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\MainWindow.g.cs
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\App.g.cs
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\NTRGeckoCheat_MarkupCompile.cache
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\NTRGeckoCheat_MarkupCompile.lref
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\MainWindow.baml
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\NTRGeckoCheat.g.resources
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\NTRGeckoCheat.Properties.Resources.resources
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\NTRGeckoCheat.csproj.GenerateResource.Cache
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\NTRGeckoCheat.exe
+C:\Users\Nanquitas\Desktop\github\NTRGeckoCheat\NTRGeckoCheat\obj\Release\NTRGeckoCheat.pdb

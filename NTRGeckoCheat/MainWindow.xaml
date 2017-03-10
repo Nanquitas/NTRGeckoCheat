@@ -1,0 +1,38 @@
+﻿<Window x:Class="NTRGeckoCheat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NTRGeckoCheat"
+        mc:Ignorable="d"
+        Title="NTR Gecko Cheats" MaxWidth="550" MaxHeight="550" >
+    <Grid HorizontalAlignment="Left">
+        <StackPanel Margin="0" MaxWidth="550" >
+            <Border Background="Gainsboro" BorderThickness="0" Height="60">
+                <Grid>
+                    <TextBox x:Name="IpTextBox" Width="100" Height="20" VerticalAlignment="Top" HorizontalAlignment="Left" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Margin="10,10,0,0"/>
+                    <Button x:Name="ConnectButton" Content="Connect" Click="ConnectButton_OnClick" HorizontalAlignment="Left" VerticalAlignment="Top" Padding="5,1" Margin="115,10,0,0" />
+                    <Label x:Name="StatusLabel" Content="{Binding StatusText}" Foreground="{Binding StatusColor}" Height ="15"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="264" Margin="10,35,0,0" Padding="0"/>
+                    <Label x:Name="GameTitleLabel" Content="{Binding GameTitle}" Height="15" Width="200" Padding="0" HorizontalAlignment="Left" Margin="279,15,0,30" />
+                    <Label x:Name="GameTitleIdLabel" Content="{Binding GameTitleId}" Height="15" Width="200" Padding="0" HorizontalAlignment="Left" Margin="279,35,0,10" />
+                </Grid>
+            </Border>
+            <RichTextBox Name="LogRichTextBox" IsReadOnly="True" VerticalScrollBarVisibility="Auto" Height="200" Background="GhostWhite" />
+            <Border Background="Gainsboro" BorderThickness="0" Height="262">
+                <StackPanel>
+                    <Label Content="Paste your cheat here:" Height="20" Padding ="5,0" />
+                    <TextBox Name="CheatTextBox" Height="200" AcceptsReturn="True"/>
+                    <StackPanel  Orientation="Horizontal" Margin="5">
+                        <Button Name="SendButton" Content="Send" Margin="5" Padding="5, 0" Width="80" Click="SendButton_OnClick" />
+                        <TextBox Name="CheatIdTextBox" Margin="5" Width="50" />
+                        <Button Name="RemoveButton" Content="Remove" Margin="5" Padding="5, 0" Width="80" Click="RemoveButton_OnClick"/>
+                        <Button Name="EnableButton" Content="Enable" Margin="5" Padding="5, 0" Width="80" Click="EnableButton_OnClick"/>
+                        <Button Name="DisableButton" Content="Disable" Margin="5" Padding="5, 0" Width="80" Click="DisableButton_OnClick"/>
+                        <Button Name="ListButton" Content="List" Margin="5" Padding="5, 0" Width="80" Click="ListButton_OnClick"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+
+    </Grid>
+</Window>
